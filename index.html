@@ -85,93 +85,94 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p># </p>
-<h1 id="迎使用-克-象"><a href="#迎使用-克-象" class="headerlink" title="?迎使用?克?象"></a>?迎使用?克?象</h1><p>@(示例??本)[?克?象|?助|Markdown]</p>
-<p><strong>?克?象</strong>是一款??印象??（Evernote）打造的Markdown??器，通?精心的??与技???，配合印象???大的存?和同步功能，??前所未有的??体?。特?概述：</p>
+<h1 id="Welcome-to-StackEdit"><a href="#Welcome-to-StackEdit" class="headerlink" title="Welcome to StackEdit!"></a>Welcome to StackEdit!</h1><p>Hi! I’m your first Markdown file in <strong>StackEdit</strong>. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. If you have finished with me, you can just create new files by opening the <strong>file explorer</strong> on the left corner of the navigation bar.</p>
+<h1 id="Files"><a href="#Files" class="headerlink" title="Files"></a>Files</h1><p>StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible <strong>offline!</strong></p>
+<h2 id="Create-files-and-folders"><a href="#Create-files-and-folders" class="headerlink" title="Create files and folders"></a>Create files and folders</h2><p>The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the <strong>New file</strong> button in the file explorer. You can also create folders by clicking the <strong>New folder</strong> button.</p>
+<h2 id="Switch-to-another-file"><a href="#Switch-to-another-file" class="headerlink" title="Switch to another file"></a>Switch to another file</h2><p>All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.</p>
+<h2 id="Rename-a-file"><a href="#Rename-a-file" class="headerlink" title="Rename a file"></a>Rename a file</h2><p>You can rename the current file by clicking the file name in the navigation bar or by clicking the <strong>Rename</strong> button in the file explorer.</p>
+<h2 id="Delete-a-file"><a href="#Delete-a-file" class="headerlink" title="Delete a file"></a>Delete a file</h2><p>You can delete the current file by clicking the <strong>Remove</strong> button in the file explorer. The file will be moved into the <strong>Trash</strong> folder and automatically deleted after 7 days of inactivity.</p>
+<h2 id="Export-a-file"><a href="#Export-a-file" class="headerlink" title="Export a file"></a>Export a file</h2><p>You can export the current file by clicking <strong>Export to disk</strong> in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.</p>
+<h1 id="Synchronization"><a href="#Synchronization" class="headerlink" title="Synchronization"></a>Synchronization</h1><p>Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your <strong>Google Drive</strong>, your <strong>Dropbox</strong> and your <strong>GitHub</strong> accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow… The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.</p>
+<p>There are two types of synchronization and they can complement each other:</p>
 <ul>
-<li><strong>功能丰富</strong> ：支持高亮代??、<em>LaTeX</em> 公式、流程?，本地?片以及附件上?，甚至截?粘?，工作??好?手；</li>
-<li><strong>得心?手</strong> ：?洁高效的??器，提供<a href="http://maxiang.info/client_zh" target="_blank" rel="noopener">桌面客?端</a>以及<a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop" target="_blank" rel="noopener">离?Chrome App</a>，支持移?端 Web；</li>
-<li><strong>深度整合</strong> ：支持????本和添加??，支持?印象??跳???，?松管理。</li>
-</ul>
-<hr>
-<p>[TOC]</p>
-<h2 id="Markdown-介"><a href="#Markdown-介" class="headerlink" title="Markdown?介"></a>Markdown?介</h2><blockquote>
-<p>Markdown 是一种?量????言，它允?人?使用易?易?的?文本格式??文?，然后??成格式丰富的HTML?面。    —— <a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">?基百科</a></p>
+<li><p>The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.</p>
+<blockquote>
+<p>To start syncing your workspace, just sign in with Google in the menu.</p>
 </blockquote>
-<p>正如您在??的?份文?，它使用??的符???不同的??，?某些文字???<strong>粗体</strong>或者<em>斜体</em>，?建一?<a href="http://www.example.com" target="_blank" rel="noopener">?接</a>或一??注[^demo]。下面列?了几?高?功能，更多?法?按<code>Ctrl + /</code>查看?助。 </p>
-<h3 id="代"><a href="#代" class="headerlink" title="代??"></a>代??</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@requires_authorization</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">somefunc</span><span class="params">(param1=<span class="string">''</span>, param2=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="string">'''A docstring'''</span></span><br><span class="line">    <span class="keyword">if</span> param1 &gt; param2: <span class="comment"># interesting</span></span><br><span class="line">        <span class="keyword">print</span> <span class="string">'Greater'</span></span><br><span class="line">    <span class="keyword">return</span> (param2 - param1 + <span class="number">1</span>) <span class="keyword">or</span> <span class="keyword">None</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SomeClass</span>:</span></span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>message = <span class="string">'''interpreter</span></span><br><span class="line"><span class="string"><span class="meta">... </span>prompt'''</span></span><br></pre></td></tr></table></figure>
-<h3 id="LaTeX-公式"><a href="#LaTeX-公式" class="headerlink" title="LaTeX 公式"></a>LaTeX 公式</h3><p>可以?建行?公式，例如 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$。或者??公式：</p>
-<p>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
-<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+</li>
+<li><p>The file synchronization will keep one file of the workspace synced with one or multiple files in <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong>.</p>
+<blockquote>
+<p>Before starting to sync files, you must link an account in the <strong>Synchronize</strong> sub-menu.</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Open-a-file"><a href="#Open-a-file" class="headerlink" title="Open a file"></a>Open a file</h2><p>You can open a file from <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Open from</strong>. Once opened in the workspace, any modification in the file will be automatically synced.</p>
+<h2 id="Save-a-file"><a href="#Save-a-file" class="headerlink" title="Save a file"></a>Save a file</h2><p>You can save any file of the workspace to <strong>Google Drive</strong>, <strong>Dropbox</strong> or <strong>GitHub</strong> by opening the <strong>Synchronize</strong> sub-menu and clicking <strong>Save on</strong>. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.</p>
+<h2 id="Synchronize-a-file"><a href="#Synchronize-a-file" class="headerlink" title="Synchronize a file"></a>Synchronize a file</h2><p>Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.</p>
+<p>If you just have modified your file and you want to force syncing, click the <strong>Synchronize now</strong> button in the navigation bar.</p>
+<blockquote>
+<p><strong>Note:</strong> The <strong>Synchronize now</strong> button is disabled if you have no file to synchronize.</p>
+</blockquote>
+<h2 id="Manage-file-synchronization"><a href="#Manage-file-synchronization" class="headerlink" title="Manage file synchronization"></a>Manage file synchronization</h2><p>Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking <strong>File synchronization</strong> in the <strong>Synchronize</strong> sub-menu. This allows you to list and remove synchronized locations that are linked to your file.</p>
+<h1 id="Publication"><a href="#Publication" class="headerlink" title="Publication"></a>Publication</h1><p>Publishing in StackEdit makes it simple for you to publish online your files. Once you’re happy with a file, you can publish it to different hosting platforms like <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>WordPress</strong> and <strong>Zendesk</strong>. With <a href="http://handlebarsjs.com/" target="_blank" rel="noopener">Handlebars templates</a>, you have full control over what you export.</p>
+<blockquote>
+<p>Before starting to publish, you must link an account in the <strong>Publish</strong> sub-menu.</p>
+</blockquote>
+<h2 id="Publish-a-File"><a href="#Publish-a-File" class="headerlink" title="Publish a File"></a>Publish a File</h2><p>You can publish your file by opening the <strong>Publish</strong> sub-menu and by clicking <strong>Publish to</strong>. For some locations, you can choose between the following formats:</p>
+<ul>
+<li>Markdown: publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
+<li>HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).</li>
+</ul>
+<h2 id="Update-a-publication"><a href="#Update-a-publication" class="headerlink" title="Update a publication"></a>Update a publication</h2><p>After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the <strong>Publish now</strong> button in the navigation bar.</p>
+<blockquote>
+<p><strong>Note:</strong> The <strong>Publish now</strong> button is disabled if your file has not been published yet.</p>
+</blockquote>
+<h2 id="Manage-file-publication"><a href="#Manage-file-publication" class="headerlink" title="Manage file publication"></a>Manage file publication</h2><p>Since one file can be published to multiple locations, you can list and manage publish locations by clicking <strong>File publication</strong> in the <strong>Publish</strong> sub-menu. This allows you to list and remove publication locations that are linked to your file.</p>
+<h1 id="Markdown-extensions"><a href="#Markdown-extensions" class="headerlink" title="Markdown extensions"></a>Markdown extensions</h1><p>StackEdit extends the standard Markdown syntax by adding extra <strong>Markdown extensions</strong>, providing you with some nice features.</p>
+<blockquote>
+<p><strong>ProTip:</strong> You can disable any <strong>Markdown extension</strong> in the <strong>File properties</strong> dialog.</p>
+</blockquote>
+<h2 id="SmartyPants"><a href="#SmartyPants" class="headerlink" title="SmartyPants"></a>SmartyPants</h2><p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example:</p>
+<table>
 <thead>
 <tr>
-<th style="text-align:left">Item</th>
-<th style="text-align:right">Value</th>
-<th style="text-align:center">Qty</th>
+<th></th>
+<th>ASCII</th>
+<th>HTML</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">Computer</td>
-<td style="text-align:right">1600 USD</td>
-<td style="text-align:center">5</td>
+<td>Single backticks</td>
+<td><code>&#39;Isn&#39;t this fun?&#39;</code></td>
+<td>‘Isn’t this fun?’</td>
 </tr>
 <tr>
-<td style="text-align:left">Phone</td>
-<td style="text-align:right">12 USD</td>
-<td style="text-align:center">12</td>
+<td>Quotes</td>
+<td><code>&quot;Isn&#39;t this fun?&quot;</code></td>
+<td>“Isn’t this fun?”</td>
 </tr>
 <tr>
-<td style="text-align:left">Pipe</td>
-<td style="text-align:right">1 USD</td>
-<td style="text-align:center">234</td>
+<td>Dashes</td>
+<td><code>-- is en-dash, --- is em-dash</code></td>
+<td>– is en-dash, — is em-dash</td>
 </tr>
 </tbody>
 </table>
-<h3 id="流程"><a href="#流程" class="headerlink" title="流程?"></a>流程?</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: Start</span><br><span class="line">e=&gt;end</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line"></span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br></pre></td></tr></table></figure>
-<p>以及?序?:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Alice-&gt;Bob: Hello Bob, how are you?</span><br><span class="line">Note right of Bob: Bob thinks</span><br><span class="line">Bob--&gt;Alice: I am good thanks!</span><br></pre></td></tr></table></figure>
+<h2 id="KaTeX"><a href="#KaTeX" class="headerlink" title="KaTeX"></a>KaTeX</h2><p>You can render LaTeX mathematical expressions using <a href="https://khan.github.io/KaTeX/" target="_blank" rel="noopener">KaTeX</a>:</p>
+<p>The <em>Gamma function</em> satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral</p>
+<p>$$<br>\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.<br>$$</p>
 <blockquote>
-<p><strong>提示：</strong>想了解更多，?查看<strong>流程?</strong><a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="noopener">?法</a>以及<strong>?序?</strong><a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="noopener">?法</a>。</p>
+<p>You can find more information about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="noopener">here</a>.</p>
 </blockquote>
-<h3 id="复-框"><a href="#复-框" class="headerlink" title="复?框"></a>复?框</h3><p>使用 <code>- [ ]</code> 和 <code>- [x]</code> ?法可以?建复?框，?? todo-list 等功能。例如：</p>
-<ul>
-<li style="list-style: none"><input type="checkbox" checked> 已完成事?</li>
-<li style="list-style: none"><input type="checkbox"> 待?事?1</li>
-<li style="list-style: none"><input type="checkbox"> 待?事?2</li>
-</ul>
-<blockquote>
-<p><strong>注意：</strong>目前支持尚不完全，在印象??中勾?复?框是?效、不能同步的，所以必?在<strong>?克?象</strong>中修改 Markdown 原文才可生效。下?版本??全面支持。</p>
-</blockquote>
-<h2 id="印象-相"><a href="#印象-相" class="headerlink" title="印象??相?"></a>印象??相?</h2><h3 id="本和"><a href="#本和" class="headerlink" title="??本和??"></a>??本和??</h3><p><strong>?克?象</strong>增加了<code>@(??本)[??A|??B]</code>?法, 以????本和添加??。 <strong>?定??后</strong>， ?入<code>(</code>自??出???本列表，??中??。</p>
-<h3 id=""><a href="#" class="headerlink" title="????"></a>????</h3><p><strong>?克?象</strong>?自?使用文??出?的第一???作?????。例如本文，就是第一行的 <code>?迎使用?克?象</code>。</p>
-<h3 id="快捷"><a href="#快捷" class="headerlink" title="快捷??"></a>快捷??</h3><p>保存在印象??中的??，右上角?有一??色的??按?，??后?回到<strong>?克?象</strong>中打?并?????。</p>
-<blockquote>
-<p><strong>注意：</strong>目前用?在印象??中?方面做的任何修改，?克?象是?法自?感知和更新的。所以??必回到?克?象??。</p>
-</blockquote>
-<h3 id="据同步"><a href="#据同步" class="headerlink" title="?据同步"></a>?据同步</h3><p><strong>?克?象</strong>通?<strong>?Markdown原文以?藏?容保存在??中</strong>的精妙??，??了?Markdown的存?和再次??。既解?了其他?品只是?向?出HTML的?薄，又?避了服?端存?Markdown??的?私安全??。??，服?端?作??印象?? API?用和?据??之用。</p>
-<blockquote>
-<p><strong>?私?明：用?所有的???据，均保存在印象??中。?克?象不存?用?的任何???据。</strong></p>
-</blockquote>
-<h3 id="离-存"><a href="#离-存" class="headerlink" title="离?存?"></a>离?存?</h3><p><strong>?克?象</strong>使用??器离?存???容??保存在本地，不必?心网??掉或??器崩?。?了?省空?和避免?突，已同步至印象??并且不再修改的????除部分本地?存，不?依然可以??通?<code>文?管理</code>打?。</p>
-<blockquote>
-<p><strong>注意：</strong>?然??器存?大部分?候都比?可靠，但印象??作???云存?，更值得信?。以防万一，<strong>??必?常及?同步到印象??</strong>。</p>
-</blockquote>
-<h2 id="器相"><a href="#器相" class="headerlink" title="??器相?"></a>??器相?</h2><h3 id="置"><a href="#置" class="headerlink" title="?置"></a>?置</h3><p>右?系?菜?（快捷?<code>Ctrl + M</code>）的<code>?置</code>中，提供了界面字体、字?、自定?CSS、vim/emacs ??模式等高???。</p>
-<h3 id="快捷-1"><a href="#快捷-1" class="headerlink" title="快捷?"></a>快捷?</h3><p>?助    <code>Ctrl + /</code><br>同步文?    <code>Ctrl + S</code><br>?建文?    <code>Ctrl + Alt + N</code><br>最大化??器    <code>Ctrl + Enter</code><br>??文? <code>Ctrl + Alt + Enter</code><br>文?管理    <code>Ctrl + O</code><br>系?菜?    <code>Ctrl + M</code> </p>
-<p>加粗    <code>Ctrl + B</code><br>插入?片    <code>Ctrl + G</code><br>插入?接    <code>Ctrl + L</code><br>提升??    <code>Ctrl + H</code></p>
-<h2 id="于收"><a href="#于收" class="headerlink" title="?于收?"></a>?于收?</h2><p><strong>?克?象</strong>?新用?提供 10 天的?用期，?用期?后需要<a href="maxiang.info/vip.html">??</a>才能??使用。未??或者未及???，?不能同步新的??。之前保存?的??依然可以??。</p>
-<h2 id="反-与建"><a href="#反-与建" class="headerlink" title="反?与建?"></a>反?与建?</h2><ul>
-<li>微博：<a href="http://weibo.com/u/2788354117" target="_blank" rel="noopener">@?克?象</a>，<a href="http://weibo.com/ggock" title="??者?人??" target="_blank" rel="noopener">@GGock</a></li>
-<li>?箱：<a href="mailto:&#x68;&#117;&#x73;&#116;&#103;&#111;&#x63;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;" target="_blank" rel="noopener">&#x68;&#117;&#x73;&#116;&#103;&#111;&#x63;&#x6b;&#x40;&#103;&#109;&#97;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></li>
-</ul>
-<hr>
-<p>感????份?助文?。???右上角，?定印象????，??全新的??与分享体?吧。</p>
-<p>[^demo]: ?是一?示例?注。?查? <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes" target="_blank" rel="noopener">MultiMarkdown 文?</a> ?于?注的?明。 <strong>限制：</strong> 印象??的???容使用 <a href="https://dev.yinxiang.com/doc/articles/enml.php" target="_blank" rel="noopener">ENML</a> 格式，基于 HTML，但是不支持某些??和?性，例如id，?就?致<code>?注</code>和<code>TOC</code>?法正常??。</p>
-
+<h2 id="UML-diagrams"><a href="#UML-diagrams" class="headerlink" title="UML diagrams"></a>UML diagrams</h2><p>You can render UML diagrams using <a href="https://mermaidjs.github.io/" target="_blank" rel="noopener">Mermaid</a>. For example, this will produce a sequence diagram:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">Alice -&gt;&gt; Bob: Hello Bob, how are you?</span><br><span class="line">Bob--&gt;&gt;John: How about you John?</span><br><span class="line">Bob--x Alice: I am good thanks!</span><br><span class="line">Bob-x John: I am good thanks!</span><br><span class="line">Note right of John: Bob thinks a long&lt;br/&gt;long time, so long&lt;br/&gt;that the text does&lt;br/&gt;not fit on a row.</span><br><span class="line"></span><br><span class="line">Bob--&gt;Alice: Checking with John...</span><br><span class="line">Alice-&gt;John: Yes... John, how are you?</span><br></pre></td></tr></table></figure>
+<p>And this will produce a flow chart:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[Square Rect] -- Link text --&gt; B((Circle))</span><br><span class="line">A --&gt; C(Round Rect)</span><br><span class="line">B --&gt; D&#123;Rhombus&#125;</span><br><span class="line">C --&gt; D</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/07/31/ABC-article/" data-id="cjk9e9li300002cp97822nwej" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/07/31/ABC-article/" data-id="cjkahacd70000jwp98tfhz3o4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -216,7 +217,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/07/31/hello-world/" data-id="cjk9e9lkc00012cp9zzaatcji" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/07/31/hello-world/" data-id="cjkahacem0001jwp9q4ul9sie" class="article-share-link">Share</a>
       
       
     </footer>
